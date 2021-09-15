@@ -1,2 +1,2 @@
 # fizzbuzz
-Skeleton framework for implementing you solution for fizzbuzz problem
+Skeleton framework for implementing your solution for the fizzbuzz problem
