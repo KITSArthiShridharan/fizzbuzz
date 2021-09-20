@@ -1,4 +1,4 @@
-package com.kingfisher;
+package com.kingfisher.fb;
 
 public class FizzBuzz {
 }

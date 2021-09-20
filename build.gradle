@@ -1,19 +1,21 @@
-buildscript {
-    repositories {
-        mavenLocal()
-    }
-}
-
 plugins {
     id 'eclipse'
     id 'idea'
 }
 
+repositories {
+    mavenCentral()
+}
+
 apply plugin: 'java'
 
-group = 'com.kingfisher'
+group = 'com.kingfisher.fb'
 version = 0.1
 
 task sourceJar(type: Jar) {
     from sourceSets.main.allJava
+}
+
+dependencies {
+
 }
